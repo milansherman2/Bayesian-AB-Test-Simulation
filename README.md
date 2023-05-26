@@ -24,7 +24,7 @@ The code included adapts code from the course to run a simulation of an experime
 
 The particular experiment I am simulating with this code are two variations of a user experience, one that results in a 21% conversion rate (the baseline or control version), and another that has a 25% conversion rate.  In reality, we don't know this conversion rate, but we're assuming it will be better than the control as that's the point of designing a new product.  What the simulation shows is how often the better variant will actually "win" if the conversion rate is 25%.
 
-Bayesian sampling is based on 
+Bayesian sampling is based on the assumption that each variant can be modeled with a beta distribution with a given mean, so that as we sample from the distribution the emprical mean should converge the true mean (21% and 25%, respecitvely).  
 
 
 
