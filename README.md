@@ -11,7 +11,7 @@ One of the primary roles that I filled while working at Bestow is the design and
 - Requires larger samples
 - Unlikely to detect incremental lifts
 - Wastes money 
-- Often inconclusive
+- Often inconclusive, i.e., 'fail to reject the null hypothesis' only says that we don't have enough evidence to reject the null hypothesis, it makes no claim about which variant is better.
 
 <b>Bayesian A/B Testing</b>:
 - Answers the question, “what is the probability that A > B?”
